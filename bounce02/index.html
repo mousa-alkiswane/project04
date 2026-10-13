@@ -1,0 +1,644 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Musa Alkiswane | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header class="site-header" id="home">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo" data-i18n="logo">
+                Musa Alkiswane
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#about" data-i18n="navAbout">About</a></li>
+                <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
+                <li><a href="#experience" data-i18n="navExperience">Experience</a></li>
+                <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
+                <li><a href="#hobbies" data-i18n="navHobbies">Hobbies</a></li>
+                <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+            </ul>
+
+            <div class="header-buttons">
+
+                <button
+                    type="button"
+                    id="languageButton"
+                    class="language-button"
+                    aria-label="Switch language"
+                >
+                    العربية
+                </button>
+
+                <button
+                    type="button"
+                    id="themeButton"
+                    class="theme-button"
+                    data-i18n="themeButton"
+                >
+                    Dark Theme
+                </button>
+
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Home / Hero -->
+        <section class="hero container">
+
+            <div class="hero-text">
+
+                <p class="welcome" data-i18n="welcome">
+                    WELCOME TO MY PORTFOLIO
+                </p>
+
+                <h1 data-i18n="heroTitle">
+                    Hello, I'm Musa Alkiswane
+                </h1>
+
+                <h2 data-i18n="heroSubtitle">
+                    Data Science & Artificial Intelligence Graduate
+                </h2>
+
+                <p data-i18n="heroDescription">
+                    Passionate about Data Analytics, Business Intelligence,
+                    and Data Quality. I enjoy transforming data into
+                    meaningful insights and solving real-world problems.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn" data-i18n="viewProjects">
+                        View My Projects
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/mousa-alkiswane"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-outline"
+                        data-i18n="linkedinProfile"
+                    >
+                        LinkedIn Profile
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Single Profile Photo with Switch Button -->
+            <div class="hero-image">
+                <div class="profile-card">
+
+                    <img
+                        id="profilePhoto"
+                        src="assets/profile.jpg"
+                        alt="Musa Alkiswane casual profile photo"
+                        data-i18n-alt="profilePhotoAlt"
+                    >
+
+                    <button
+                        type="button"
+                        id="changePhotoBtn"
+                        class="change-photo-btn"
+                    >
+                        <span aria-hidden="true">⇄</span>
+                        <span data-i18n="changePhoto">Change Photo</span>
+                    </button>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- About Me -->
+        <section id="about" class="section container">
+
+            <div class="section-heading">
+                <p class="section-label" data-i18n="aboutLabel">
+                    GET TO KNOW ME
+                </p>
+
+                <h2 data-i18n="aboutTitle">About Me</h2>
+            </div>
+
+            <div class="about-card">
+                <p data-i18n="aboutDescription">
+                    I graduated in Data Science and Artificial Intelligence
+                    from Al-Balqa Applied University. During my internship
+                    at ACABES, I gained practical experience in SQL,
+                    data cleaning, data validation, and Power BI dashboards.
+                    My graduation project focused on predicting manufacturing
+                    equipment failures using Machine Learning.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills" class="section container">
+
+            <div class="section-heading">
+                <p class="section-label" data-i18n="skillsLabel">
+                    WHAT I WORK WITH
+                </p>
+
+                <h2 data-i18n="skillsTitle">My Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">SQL</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">Power BI</div>
+                <div class="skill-card">Microsoft Excel</div>
+                <div class="skill-card" data-i18n="skillDataAnalysis">Data Analysis</div>
+                <div class="skill-card" data-i18n="skillDataCleaning">Data Cleaning</div>
+                <div class="skill-card" data-i18n="skillDataVisualization">Data Visualization</div>
+                <div class="skill-card" data-i18n="skillDataQuality">Data Quality</div>
+                <div class="skill-card">PostgreSQL</div>
+                <div class="skill-card" data-i18n="skillMachineLearning">Machine Learning</div>
+                <div class="skill-card" data-i18n="skillDataValidation">Data Validation</div>
+                <div class="skill-card">Power Query</div>
+            </div>
+
+        </section>
+
+
+        <!-- Professional Experience -->
+        <section id="experience" class="section container">
+
+            <div class="section-heading">
+                <p class="section-label" data-i18n="experienceLabel">
+                    MY PROFESSIONAL JOURNEY
+                </p>
+
+                <h2 data-i18n="experienceTitle">Professional Experience</h2>
+            </div>
+
+            <article class="experience-card">
+
+                <div class="experience-header">
+
+                    <div>
+                        <h3 data-i18n="jobTitle">Data Quality Intern</h3>
+                        <h4>ACABES</h4>
+                    </div>
+
+                    <p class="experience-date" data-i18n="experienceDate">
+                        September 2025 – January 2026
+                    </p>
+
+                </div>
+
+                <p class="experience-team" data-i18n="experienceTeam">
+                    Data Quality Team
+                </p>
+
+                <ul>
+                    <li data-i18n="experience1">
+                        Used SQL queries to clean and validate data.
+                    </li>
+
+                    <li data-i18n="experience2">
+                        Supported completeness, validity, accuracy,
+                        and uniqueness checks.
+                    </li>
+
+                    <li data-i18n="experience3">
+                        Identified data inconsistencies and quality issues.
+                    </li>
+
+                    <li data-i18n="experience4">
+                        Created Power BI dashboards to report data
+                        quality metrics.
+                    </li>
+
+                    <li data-i18n="experience5">
+                        Supported data governance and data reliability
+                        processes.
+                    </li>
+                </ul>
+
+            </article>
+
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="section container">
+
+            <div class="section-heading">
+
+                <p class="section-label" data-i18n="projectsLabel">
+                    MY WORK
+                </p>
+
+                <h2 data-i18n="projectsTitle">My Projects</h2>
+
+                <p class="section-description" data-i18n="projectsDescription">
+                    Explore my web development, data quality,
+                    and machine learning projects.
+                </p>
+
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Project 00 -->
+                <article class="project-card">
+
+                    <span class="project-number" data-i18n="project00Number">
+                        PROJECT 00
+                    </span>
+
+                    <h3 data-i18n="project00Title">Personal Portfolio</h3>
+
+                    <p data-i18n="project00Description">
+                        A responsive personal website built with HTML,
+                        CSS, and JavaScript.
+                    </p>
+
+                    <a
+                        href="https://github.com/mousa-alkiswane/project03"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        <span data-i18n="viewRepository">View Repository</span>
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                </article>
+
+
+                <!-- Project 01 -->
+                <article class="project-card">
+
+                    <span class="project-number" data-i18n="project01Number">
+                        PROJECT 01
+                    </span>
+
+                    <h3 data-i18n="project01Title">CSS Shapes</h3>
+
+                    <p data-i18n="project01Description">
+                        Geometric shapes created and styled using CSS.
+                    </p>
+
+                    <a
+                        href="https://github.com/mousa-alkiswane/projrect01-"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        <span data-i18n="viewRepository">View Repository</span>
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                </article>
+
+
+                <!-- Project 02 -->
+                <article class="project-card">
+
+                    <span class="project-number" data-i18n="project02Number">
+                        PROJECT 02
+                    </span>
+
+                    <h3 data-i18n="project02Title">DOM Manipulation</h3>
+
+                    <p data-i18n="project02Description">
+                        Interactive web elements using JavaScript
+                        and DOM manipulation.
+                    </p>
+
+                    <a
+                        href="https://github.com/mousa-alkiswane/project02"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        <span data-i18n="viewRepository">View Repository</span>
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                </article>
+
+
+                <!-- Project 03 -->
+                <article class="project-card">
+
+                    <span class="project-number" data-i18n="project03Number">
+                        PROJECT 03
+                    </span>
+
+                    <h3 data-i18n="project03Title">Interactive Web Exercises</h3>
+
+                    <p data-i18n="project03Description">
+                        Web exercises demonstrating HTML, CSS,
+                        JavaScript, and interactive elements.
+                    </p>
+
+                    <a
+                        href="https://github.com/mousa-alkiswane/project03"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        <span data-i18n="viewRepository">View Repository</span>
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                </article>
+
+
+                <!-- Data Quality Project -->
+                <article class="project-card">
+
+                    <span class="project-number" data-i18n="dataQualityNumber">
+                        DATA QUALITY
+                    </span>
+
+                    <h3 data-i18n="dataQualityTitle">Data Quality Project</h3>
+
+                    <p data-i18n="dataQualityDescription">
+                        A project related to data quality assessment,
+                        validation, and reliable data analysis.
+                    </p>
+
+                    <a
+                        href="https://github.com/mousa-alkiswane/DataQualityProject-"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        <span data-i18n="viewRepository">View Repository</span>
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                </article>
+
+
+                <!-- Graduation Project -->
+                <article class="project-card">
+
+                    <span class="project-number" data-i18n="machineLearningNumber">
+                        MACHINE LEARNING
+                    </span>
+
+                    <h3 data-i18n="maintenanceTitle">Predictive Maintenance System</h3>
+
+                    <p data-i18n="maintenanceDescription">
+                        A Machine Learning project focused on predicting
+                        manufacturing equipment failures using sensor data.
+                    </p>
+
+                    <a
+                        href="https://github.com/mousa-alkiswane/Predictive-Maintenance-System"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        <span data-i18n="viewRepository">View Repository</span>
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                </article>
+
+
+                <!-- Projects Collection -->
+                <article class="project-card">
+
+                    <span class="project-number" data-i18n="moreWorkNumber">
+                        MORE WORK
+                    </span>
+
+                    <h3 data-i18n="projectsCollectionTitle">Projects Collection</h3>
+
+                    <p data-i18n="projectsCollectionDescription">
+                        Visit my GitHub repository for additional
+                        projects and coding exercises.
+                    </p>
+
+                    <a
+                        href="https://github.com/mousa-alkiswane/projects-"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        <span data-i18n="viewRepository">View Repository</span>
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Hobbies -->
+        <section id="hobbies" class="section container">
+
+            <div class="section-heading">
+
+                <p class="section-label" data-i18n="hobbiesLabel">
+                    OUTSIDE MY WORK
+                </p>
+
+                <h2 data-i18n="hobbiesTitle">My Hobbies</h2>
+
+            </div>
+
+            <div class="hobbies-grid">
+
+                <div class="hobby-card">
+                    <span aria-hidden="true">📚</span>
+                    <h3 data-i18n="hobby1">Learning New Technologies</h3>
+                </div>
+
+                <div class="hobby-card">
+                    <span aria-hidden="true">📊</span>
+                    <h3 data-i18n="hobby2">Data Analysis</h3>
+                </div>
+
+                <div class="hobby-card">
+                    <span aria-hidden="true">💡</span>
+                    <h3 data-i18n="hobby3">Problem Solving</h3>
+                </div>
+
+                <div class="hobby-card">
+                    <span aria-hidden="true">🚀</span>
+                    <h3 data-i18n="hobby4">Personal Development</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="section container">
+
+            <div class="section-heading">
+
+                <p class="section-label" data-i18n="contactLabel">
+                    LET'S CONNECT
+                </p>
+
+                <h2 data-i18n="contactTitle">Contact Me</h2>
+
+                <p class="section-description" data-i18n="contactDescription">
+                    Feel free to get in touch with me.
+                </p>
+
+            </div>
+
+            <div class="contact-layout">
+
+                <div class="contact-info">
+
+                    <h3 data-i18n="getInTouch">Get in Touch</h3>
+
+                    <p>
+                        <strong data-i18n="emailLabel">Email</strong><br>
+
+                        <a href="mailto:alkiswanemusa3@yahoo.com">
+                            alkiswanemusa3@yahoo.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong data-i18n="phoneLabel">Phone</strong><br>
+
+                        <a href="tel:+962781603029">
+                            +962781603029
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong data-i18n="locationLabel">Location</strong><br>
+
+                        <span data-i18n="locationValue">Amman, Jordan</span>
+                    </p>
+
+                    <p>
+                        <strong>LinkedIn</strong><br>
+
+                        <a
+                            href="https://www.linkedin.com/in/mousa-alkiswane"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-i18n="visitProfile"
+                        >
+                            Visit My Profile
+                        </a>
+                    </p>
+
+                </div>
+
+
+                <form id="contactForm" class="contact-form">
+
+                    <label for="name" data-i18n="nameLabel">
+                        Your Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        data-i18n-placeholder="namePlaceholder"
+                        required
+                    >
+
+                    <label for="email" data-i18n="yourEmailLabel">
+                        Your Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        data-i18n-placeholder="emailPlaceholder"
+                        required
+                    >
+
+                    <label for="message" data-i18n="messageLabel">
+                        Your Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write your message..."
+                        data-i18n-placeholder="messagePlaceholder"
+                        rows="5"
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="btn" data-i18n="sendMessage">
+                        Send Message
+                    </button>
+
+                    <p
+                        id="formMessage"
+                        role="status"
+                        aria-live="polite"
+                    ></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <p data-i18n="footerText">
+                &copy; 2026 Musa Alkiswane. All rights reserved.
+            </p>
+
+            <a
+                href="https://github.com/mousa-alkiswane"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="githubProfile"
+            >
+                GitHub Profile ↗
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
